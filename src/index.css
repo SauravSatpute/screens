@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Rowdies:wght@300;400;700&display=swap');
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFFFFF;
+/* background: #912C22; */
+  text-shadow: 0 0 10px #FFFFFF;
+}
+
+.bg-gradient-login{
+background-image: linear-gradient(180deg,
+                    black 0%,
+                    rgba(28, 231, 129, 0.507) 48%,
+                    black 96%
+                    ), 
+                      url(
+'https://assets.nflxext.com/ffe/siteui/vlv3/f272782d-cf96-4988-a675-6db2afd165e0/web/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_small.jpg');
+
+};
+
+.scrollbar {
+  /* -ms-overflow-style: none; for Internet Explorer, Edge */
+  /* scrollbar-width: none; for Firefox */
+  overflow-x: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: black;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(141, 141, 141, 0.24);
+  border-radius: 100vh;
+  border: 3px solid black;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.623);
+}
